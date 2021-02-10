@@ -63,6 +63,10 @@ body {
   font-weight: 400;
 }
 
+.border {
+  border-radius: 25px;
+}
+
 .code {
   color: #0060ce;
 }
@@ -114,11 +118,15 @@ body {
 }
 
 .skill-html {
+  padding-left: 25px;
   background-image: url("img/icon-html.svg");
+  background-repeat: no-repeat;
 }
 
 .skill-css {
+  padding-left: 25px;
   background-image: url("img/icon-css.svg");
+  background-repeat: no-repeat;
 }
 
 .level {
@@ -173,7 +181,7 @@ body {
 }
 
 .page-footer {
-  padding: 40px 0;
+  padding: 20px 0;
   background-color: #0060ce;
   color: #ffffff;
 }
